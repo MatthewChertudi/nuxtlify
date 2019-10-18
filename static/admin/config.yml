@@ -19,3 +19,16 @@ collections:
       - { label: 'Publish Date', name: 'date', widget: 'datetime' }
       - { label: 'Description', name: 'description', widget: 'string' }
       - { label: 'Body', name: 'body', widget: 'markdown' }
+
+  - name: 'info-sheet'
+    label: 'Informational Pamphlet'
+    folder: 'assets/content/info-sheet'
+    create: true
+    slug: {{title}}
+    format: 'json'
+    editor: 
+      preview: true
+    fields:
+     - { label: 'Title', name: 'title', widget: 'string' }
+     - { label: 'Top Image', name: 'hero-img', widget: 'image', allow_multiple: false }
+     - { label: 'Text Content', name: 'info-text', widget: 'string' }
