@@ -24,7 +24,7 @@ collections:
     label: 'Informational Pamphlet'
     folder: 'assets/content/info-sheet'
     create: true
-    slug: {{title}}
+    slug: '{{title}}'
     format: 'json'
     editor: 
       preview: true
