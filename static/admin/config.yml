@@ -24,11 +24,12 @@ collections:
     label: 'Informational Pamphlet'
     folder: 'assets/content/info-sheet'
     create: true
-    slug: '{{title}}'
+    slug: '{{year}}-{{month}}-{{day}}'
     format: 'json'
     editor: 
       preview: true
     fields:
      - { label: 'Title', name: 'title', widget: 'string' }
+     - { label: 'Publish Date', name: 'date', widget: 'datetime' }
      - { label: 'Top Image', name: 'hero-img', widget: 'image', allow_multiple: false }
      - { label: 'Text Content', name: 'info-text', widget: 'string' }
