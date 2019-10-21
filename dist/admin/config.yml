@@ -34,8 +34,8 @@ collections:
      - { label: 'Top Image', name: 'hero-img', widget: 'image', allow_multiple: false }
      - { label: 'Text Content', name: 'info-text', widget: 'string' }
 
-    - label: "Pages"
-      name: "pages"
+    - name: "pages"
+      label: "Pages"
       files:
         - label: "Home Page"
           name: "home"
